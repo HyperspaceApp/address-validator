@@ -56,8 +56,8 @@ func main() {
 		pubkeys = append(pubkeys, pk)
 	}
 	if verifyAddress(uh, pubkeys, uint64(*timelock), uint64(*n)) {
-		fmt.Printf("This address validates")
+		fmt.Println("This address validates")
 	} else {
-		fmt.Printf("This address does not validate")
+		fmt.Println("This address does not validate")
 	}
 }
