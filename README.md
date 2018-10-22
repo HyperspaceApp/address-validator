@@ -1,8 +1,11 @@
 # address-validator
 Validate unlock conditions against addresses
 
-Following is a listed of unlock hashes and corresponded pubkeys that were timelocked to block 157680 for the contributor airdrop.
+You can run `./test.sh` to automatically validate the Hyperspace contributor airdrop unlock hash timelocks.
 
+The following is a list of unlock hashes and corresponded pubkeys that were timelocked to block 157680 for the contributor airdrop.
+
+```
 devs = {
   [
     'bda2eca5518cbad430bc53790584b228b6b7792ae8fc20d3eff531aeb2b62d408d725fb48cdf',
@@ -72,3 +75,4 @@ contributors = {
      'ed25519:0d949e965f931d732489608ce65c0c11773bc859426ac2684da80ca552c5541c',
   ]
 }
+```
