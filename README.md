@@ -1,7 +1,7 @@
 # address-validator
 Validate unlock conditions against addresses
 
-You can run `./test.sh` to automatically validate the Hyperspace contributor airdrop unlock hash timelocks.
+You can run `./validate.sh` to automatically validate the Hyperspace contributor airdrop unlock hash timelocks.
 
 The following is a list of unlock hashes and corresponded pubkeys that were timelocked to block 157680 for the contributor airdrop.
 
